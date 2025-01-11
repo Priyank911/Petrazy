@@ -1,0 +1,12 @@
+[contract]
+name = "pet_contract"
+authors = ["Petrazy"]
+version = "0.1.0"
+
+[dependencies]
+ink = { version = "4.2", default-features = false }
+scale = "2.0"
+scale-info = "2.0"
+
+[features]
+std = ["ink/std"]

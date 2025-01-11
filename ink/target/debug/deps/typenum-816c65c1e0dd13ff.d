@@ -1,0 +1,17 @@
+D:\Digital-pet-ecosystem\digital-pets\ink\target\debug\deps\libtypenum-816c65c1e0dd13ff.rmeta: C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\lib.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\bit.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\int.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\marker_traits.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\operator_aliases.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\private.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\type_operators.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\uint.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\array.rs D:\Digital-pet-ecosystem\digital-pets\ink\target\debug\build\typenum-d0c0103f2269a5e4\out/op.rs D:\Digital-pet-ecosystem\digital-pets\ink\target\debug\build\typenum-d0c0103f2269a5e4\out/consts.rs
+
+D:\Digital-pet-ecosystem\digital-pets\ink\target\debug\deps\typenum-816c65c1e0dd13ff.d: C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\lib.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\bit.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\int.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\marker_traits.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\operator_aliases.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\private.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\type_operators.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\uint.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\array.rs D:\Digital-pet-ecosystem\digital-pets\ink\target\debug\build\typenum-d0c0103f2269a5e4\out/op.rs D:\Digital-pet-ecosystem\digital-pets\ink\target\debug\build\typenum-d0c0103f2269a5e4\out/consts.rs
+
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\lib.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\bit.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\int.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\marker_traits.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\operator_aliases.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\private.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\type_operators.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\uint.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\typenum-1.17.0\src\array.rs:
+D:\Digital-pet-ecosystem\digital-pets\ink\target\debug\build\typenum-d0c0103f2269a5e4\out/op.rs:
+D:\Digital-pet-ecosystem\digital-pets\ink\target\debug\build\typenum-d0c0103f2269a5e4\out/consts.rs:
+
+# env-dep:OUT_DIR=D:\\Digital-pet-ecosystem\\digital-pets\\ink\\target\\debug\\build\\typenum-d0c0103f2269a5e4\\out

@@ -1,0 +1,13 @@
+D:\Digital-pet-ecosystem\digital-pets\ink\target\debug\deps\liblog-c5dd95bc62e6bbae.rmeta: C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\lib.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\macros.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\serde.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\mod.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\error.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\key.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\source.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\value.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\__private_api.rs
+
+D:\Digital-pet-ecosystem\digital-pets\ink\target\debug\deps\log-c5dd95bc62e6bbae.d: C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\lib.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\macros.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\serde.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\mod.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\error.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\key.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\source.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\value.rs C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\__private_api.rs
+
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\lib.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\macros.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\serde.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\mod.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\error.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\key.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\source.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\kv\value.rs:
+C:\Users\panch\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\log-0.4.24\src\__private_api.rs:

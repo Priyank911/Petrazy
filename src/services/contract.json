@@ -1,0 +1,466 @@
+{
+    "metadataVersion": "4",
+    "source": {
+      "hash": "0x...",  
+      "language": "Ink! 4",
+      "compiler": "rustc 1.77.0-nightly (your rust version)", 
+      "wasm": {
+        "contract": {
+          "name": "pet_contract",
+          "version": "0.1.0"
+        },
+        "buildMode": "Debug", 
+        "compilationTime": "..."
+      }
+    },
+    "contract": {
+      "name": "pet_contract",
+      "version": "0.1.0",
+      "authors": [],
+      "description": "A simple digital pet contract.",
+      "documentation": "",
+      "repository": ""
+    },
+    "V3": {
+      "spec": {
+        "constructors": [
+          {
+            "label": "new",
+            "selector": "0xed4b9d1b", 
+            "args": [],
+            "docs": [
+              "Constructor for initializing the smart contract."
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "label": "create_pet",
+            "selector": "0x43a9a994", 
+            "mutates": true,
+            "args": [
+              {
+                "label": "name",
+                "type": {
+                  "displayName": [
+                    "String"
+                  ]
+                }
+              }
+            ],
+            "returnType": {
+              "type": {
+                "displayName": [
+                  "Result",
+                  "_",
+                  "_"
+                ]
+              }
+            },
+            "docs": [
+              "Create a new pet for the caller."
+            ]
+          },
+          {
+            "label": "get_pet",
+            "selector": "0x2f8ff4ff", 
+            "mutates": false,
+            "args": [
+              {
+                "label": "owner",
+                "type": {
+                  "displayName": [
+                    "AccountId"
+                  ]
+                }
+              }
+            ],
+            "returnType": {
+              "type": {
+                "displayName": [
+                  "Option",
+                  "pet_contract::Pet"
+                ]
+              }
+            },
+            "docs": [
+              "Retrieve the pet of a specific account."
+            ]
+          },
+          {
+            "label": "feed_pet",
+            "selector": "0x08c3c837", 
+            "mutates": true,
+            "args": [],
+            "returnType": {
+              "type": {
+                "displayName": [
+                  "Result",
+                  "_",
+                  "_"
+                ]
+              }
+            },
+            "docs": [
+              "Feed the pet of the caller."
+            ]
+          },
+          {
+            "label": "update_pet_mood",
+            "selector": "0x0b78f7cb", 
+            "mutates": true,
+            "args": [
+              {
+                "label": "new_mood",
+                "type": {
+                  "displayName": [
+                    "String"
+                  ]
+                }
+              }
+            ],
+            "returnType": {
+              "type": {
+                "displayName": [
+                  "Result",
+                  "_",
+                  "_"
+                ]
+              }
+            },
+            "docs": [
+              "Update the mood of the caller's pet."
+            ]
+          },
+          {
+            "label": "level_up",
+            "selector": "0x697408e3", 
+            "mutates": true,
+            "args": [],
+            "returnType": {
+              "type": {
+                "displayName": [
+                  "Result",
+                  "_",
+                  "_"
+                ]
+              }
+            },
+            "docs": [
+              "Level up the caller's pet."
+            ]
+          },
+          {
+            "label": "get_pet_count",
+            "selector": "0x39e0b94c", 
+            "mutates": false,
+            "args": [],
+            "returnType": {
+              "type": {
+                "displayName": [
+                  "u32"
+                ]
+              }
+            },
+            "docs": [
+              "Get the total number of pets created."
+            ]
+          }
+        ],
+        "events": [
+          {
+            "label": "PetCreated",
+            "args": [
+              {
+                "label": "owner",
+                "indexed": true,
+                "type": {
+                  "displayName": [
+                    "AccountId"
+                  ]
+                }
+              },
+              {
+                "label": "pet_id",
+                "indexed": false,
+                "type": {
+                  "displayName": [
+                    "u32"
+                  ]
+                }
+              },
+              {
+                "label": "name",
+                "indexed": false,
+                "type": {
+                  "displayName": [
+                    "String"
+                  ]
+                }
+              }
+            ],
+            "docs": []
+          },
+          {
+            "label": "PetFed",
+            "args": [
+              {
+                "label": "owner",
+                "indexed": true,
+                "type": {
+                  "displayName": [
+                    "AccountId"
+                  ]
+                }
+              },
+              {
+                "label": "energy",
+                "indexed": false,
+                "type": {
+                  "displayName": [
+                    "u32"
+                  ]
+                }
+              }
+            ],
+            "docs": []
+          },
+          {
+            "label": "PetMoodChanged",
+            "args": [
+              {
+                "label": "owner",
+                "indexed": true,
+                "type": {
+                  "displayName": [
+                    "AccountId"
+                  ]
+                }
+              },
+              {
+                "label": "mood",
+                "indexed": false,
+                "type": {
+                  "displayName": [
+                    "String"
+                  ]
+                }
+              }
+            ],
+            "docs": []
+          },
+          {
+            "label": "PetLeveledUp",
+            "args": [
+              {
+                "label": "owner",
+                "indexed": true,
+                "type": {
+                  "displayName": [
+                    "AccountId"
+                  ]
+                }
+              },
+              {
+                "label": "level",
+                "indexed": false,
+                "type": {
+                  "displayName": [
+                    "u32"
+                  ]
+                }
+              }
+            ],
+            "docs": []
+          }
+        ]
+      },
+      "storage": {
+        "struct": {
+          "fields": [
+            {
+              "name": "pets",
+              "layout": {
+                "mapping": {
+                  "key": {
+                    "plain": "AccountId"
+                  },
+                  "value": {
+                    "struct": {
+                      "name": "pet_contract::Pet"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "name": "pet_count",
+              "layout": {
+                "leaf": {
+                  "plain": "u32"
+                }
+              }
+            },
+            {
+              "name": "level_up_threshold",
+              "layout": {
+                "leaf": {
+                  "plain": "u32"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "types": [
+        {
+          "id": 0,
+          "type": {
+            "def": {
+              "composite": {
+                "fields": [
+                  {
+                    "name": "id",
+                    "type": 1,
+                    "typeName": "u32"
+                  },
+                  {
+                    "name": "name",
+                    "type": 2,
+                    "typeName": "String"
+                  },
+                  {
+                    "name": "energy",
+                    "type": 1,
+                    "typeName": "u32"
+                  },
+                  {
+                    "name": "mood",
+                    "type": 2,
+                    "typeName": "String"
+                  },
+                  {
+                    "name": "level",
+                    "type": 1,
+                    "typeName": "u32"
+                  },
+                  {
+                    "name": "rarity",
+                    "type": 2,
+                    "typeName": "String"
+                  },
+                  {
+                    "name": "special_traits",
+                    "type": 3,
+                    "typeName": "Vec<String>"
+                  }
+                ]
+              }
+            },
+            "params": []
+          },
+          "path": [
+            "pet_contract",
+            "Pet"
+          ]
+        },
+        {
+          "id": 1,
+          "type": {
+            "def": {
+              "primitive": "u32"
+            },
+            "params": []
+          },
+          "path": [
+            "u32"
+          ]
+        },
+        {
+          "id": 2,
+          "type": {
+            "def": {
+              "sequence": {
+                "type": 4
+              }
+            },
+            "params": []
+          },
+          "path": [
+            "String"
+          ]
+        },
+        {
+          "id": 3,
+          "type": {
+            "def": {
+              "sequence": {
+                "type": 2
+              }
+            },
+            "params": []
+          },
+          "path": [
+            "Vec",
+            "String"
+          ]
+        },
+        {
+          "id": 4,
+          "type": {
+            "def": {
+              "primitive": "str"
+            },
+            "params": []
+          },
+          "path": [
+            "str"
+          ]
+        },
+        {
+          "id": 5,
+          "type": {
+            "def": {
+              "variant": {
+                "variants": [
+                  {
+                    "name": "PetAlreadyExists",
+                    "fields": []
+                  },
+                  {
+                    "name": "PetNotFound",
+                    "fields": []
+                  },
+                  {
+                    "name": "MaxLevelReached",
+                    "fields": []
+                  },
+                  {
+                    "name": "Overflow",
+                    "fields": []
+                  }
+                ]
+              }
+            },
+            "params": []
+          },
+          "path": [
+            "pet_contract",
+            "PetError"
+          ]
+        },
+        {
+          "id": 6,
+          "type": {
+            "def": {
+              "primitive": "AccountId"
+            },
+            "params": []
+          },
+          "path": [
+            "AccountId"
+          ]
+        }
+      ]
+    }
+  }
