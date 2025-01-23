@@ -36,10 +36,11 @@ const Dashboard = () => {
              {pet ? (
                 <PetArea />
                 ) : (
-                <NoPetMessage />
+                <>
+                  <NoPetMessage />
+                  <CreatePetForm />
+                 </>
                 )}
-
-            {!pet && <CreatePetForm />}
         </div>
     );
 };
